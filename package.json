@@ -25,15 +25,15 @@
 		"commands": [
 			{
 				"command": "vscode-webview-extension-with-react.helloWorld",
-				"title": "Hello World"
+				"title": "Open Chat GPT"
 			}
 		],
 		"viewsContainers": {
 			"activitybar": [
 				{
 					"id": "webview",
-					"title": "Example for webview",
-					"icon": "./assets/extension-icon.png"
+					"title": "Generative AI",
+					"icon": "./assets/icon@24×24.png"
 				}
 			]
 		},
@@ -42,8 +42,8 @@
 				{
 					"type": "webview",
 					"id": "left-panel-webview",
-					"name": "Webview",
-					"icon": "src/assets/extension-icon.png"
+					"name": "Generative AI",
+					"icon": "src/assets/icon@24×24.png"
 				}
 			]
 		}
